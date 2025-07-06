@@ -1,0 +1,41 @@
+:root {
+  --strath-red: #e4002b;
+  --strath-blue: #0033a0;
+  --white: #ffffff;
+  --gray-light: #f4f4f4;
+}
+
+body, html, #root { margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--gray-light); }
+
+.navbar { display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; background: var(--white); border-bottom: 1px solid #ddd; }
+.nav-logo { font-weight: bold; color: var(--strath-blue); font-size: 1.2rem; }
+.nav-links { list-style: none; display: flex; gap: 1rem; margin: 0; padding: 0; }
+.nav-links a { text-decoration: none; color: var(--strath-blue); }
+
+.home-container { display: flex; flex-direction: column; }
+.site-header { background: var(--strath-blue); color: var(--white); display: flex; align-items: center; padding: 1rem 2rem; }
+.site-header .logo { height: 50px; margin-right: 1rem; }
+
+.hero { text-align: center; padding: 4rem 2rem; background: var(--white); }
+.hero h2 { color: var(--strath-red); margin-bottom: 0.5rem; }
+.hero p { font-size: 1.1rem; margin-bottom: 1.5rem; }
+
+.btn-primary { background: var(--strath-red); color: var(--white); border: none; padding: 0.75rem 1.5rem; cursor: pointer; border-radius: 4px; text-decoration: none; }
+.btn-primary:hover { background: #bf0022; }
+
+.how-it-works { padding: 2rem; background: var(--white); text-align: center; }
+.steps { display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; }
+.step { width: 200px; }
+.step h4 { margin-bottom: 0.5rem; color: var(--strath-blue); }
+
+.search-bar { display: flex; justify-content: center; padding: 1rem; background: var(--white); }
+.search-bar input { width: 80%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px; }
+
+.campaign-preview { padding: 2rem; }
+.campaign-cards { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
+.campaign-card { background: var(--white); border: 1px solid #ddd; border-radius: 8px; width: 250px; padding: 1rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+.campaign-image { width: 100%; height: auto; border-radius: 4px; margin-bottom: 1rem; }
+
+.create-section { text-align: center; padding: 2rem; background: var(--white); }
+
+.site-footer { text-align: center; padding: 1rem; background: var(--strath-blue); color: var(--white); }
